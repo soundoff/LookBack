@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application>
+  <locations>
+    <!-- Example values for mapped locations
+      This tells the application to map the location
+      <mapthisdrive>true</mapthisdrive>
+      
+      The name of the shared directory to map
+      <sharename>\\192.168.1.100\sharefile</sharename>
+      
+      The local drive letter to map the share to.
+      If the directory is on the local machine, put the path here
+      <localdrive>N:</localdrive>
+      
+      The username for the shared directory
+      <username>fakeuser</username>
+      
+      The password for the shared directory
+      <password>badpassword</password>
+    -->
+
+    <!-- Example values for local locations
+      Set to false for local paths
+      <mapthisdrive>false</mapthisdrive>
+      
+      Leave empty for local paths
+      <sharename></sharename>
+      
+      The local path
+      <localdrive>N:</localdrive>
+      
+      Leave empty for local path
+      <username>fakeuser</username>
+      
+      Leave empty for local path
+      <password>badpassword</password>
+    -->
+    <location>
+      <name>Test2</name>	
+      <source>
+        <mapthisdrive>true</mapthisdrive>
+        <sharename>\\192.168.1.100\public</sharename>
+        <localdrive></localdrive>
+        <username>admin</username>
+        <password>timon</password>
+      </source>
+      <backup>
+        <mapthisdrive>false</mapthisdrive>
+        <sharename></sharename>
+        <localdrive>C:\Temp</localdrive>
+        <username></username>
+        <password></password>
+      </backup>
+    </location>
+  </locations>
+  <logfile>C:\diff\log\</logfile>
+  <notify>
+    <email>soundoff32@gmail.com</email>
+  </notify>
+</application>
